@@ -1,14 +1,1 @@
-// app-icon.js
-(function() {
-  // Define the icon as a 24x24 pixel 1-bit image (black & white)
-  const icon = E.toArrayBuffer(atob(`
-    // Base64-encoded 24x24 1-bit BMP image data
-    AAABAAMAEBAAAAEAIABoBAAAJgAAABACAAACAAAAAgIAAAAAAA
-    MAAAAAAAAAAAAAAAA//8AAP//AAD//wAA/4YAAHiOAAAfzwAA
-    H+gAAP/MAADz8wAA8/sAAP/7AAD//wAA//8AAP//AAD//wAA
-    //8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
-  `));
-
-  // Expose the icon globally for the app loader
-  global.APP_ICON = icon;
-})();
+require("heatshrink").decompress(atob("mEwwkAqoA/AHlUmYADC69FC601C600C60yC6x4SAANTPCgyFkowTSCgACkZ4TAAVDPCwvCPCaqEPCSnDPCZeDmc0Uyh4TqQXFPCBGEPCQWFPCClEPCSlDmjZDdiUlMYZ4NIwg0EPBpGEDoh4NIIYpCPCDqGMoUydh4oDPB5GGPCBGGG4h4CGQ6HDN4gIEqkjSY4+DBYreDSZINDHYpoDKYw9FTww5DC5BGJPAg8MQQw6DBpBGJWIsyCwtUkQABZhA7CkjYKfJIsGAB9UCqgA/ACQ"))
