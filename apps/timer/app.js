@@ -1,3 +1,5 @@
+ // Aaron Thomas 2024-12-02
+
 var counter = 30;
 var counterInterval;
 
